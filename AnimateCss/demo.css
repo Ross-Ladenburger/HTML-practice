@@ -1,0 +1,61 @@
+.body {
+    margin: 0;
+}
+
+.nav {
+    animation-name: slidein;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    color: white;
+    padding: 1.25rem;
+}
+
+.content {
+    animation-name: moveover;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.footer { 
+    margin-left: 25vw;
+}
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+@keyframes slidein {
+    from {
+        height: 100vh;
+        width: 0vw;
+        position: fixed;
+        background-color: black;
+    }
+
+    to {
+        height: 100vh;
+        width: 20vw;
+        position: fixed;
+        background-color: black;
+    }
+}
+
+@keyframes moveover {
+    from { 
+        height: 100vw;
+        width: 100vw;
+        position: relative;
+        padding-top: 100px;
+    }
+
+    to { 
+        margin-left: 20vw; 
+        width: 80vw;
+        position: relative;
+        padding-top: 100px;
+    }
+
+}
