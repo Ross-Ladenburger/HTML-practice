@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    height: 100%;
+    font-family: 'PT Sans', sans-serif;
+ }
+
+ #logo { 
+     color: black
+ }
+
+ table .darkslategray {
+        color:darkslategray;
+}
+
+.white { 
+    color: white
+}
+
+li a {
+    color: white;
+}
+
+table .big { 
+    font-size: 3rem;
+}
+
+.green {
+    color: lightgreen;
+}
+
+ main {
+     min-height: 100%;
+     margin-bottom: 100px
+}
+ 
+ .nav {
+    background-color:lightsteelblue;
+    padding: 1.5rem;
+ }
+ 
+ .nav ul li {
+    display: inline;
+    margin: 1.5rem;
+    color: white;
+ }
+ 
+ figure {
+    margin: 0px;
+ }
+ 
+ section {
+    background-color: #efefef;
+    width: 500px;
+    margin: 0 auto;
+    padding: 1.5rem
+    
+ }
+
+ .cool-section {
+     background-color: red;
+ }
+h1 {
+    text-align: center;
+}
+ 
+ .footer {
+   height: 100px;
+ }
+
+ .footer .nav ul li a {
+     color: white;
+ }
+ .contact-box a {
+    padding: 30px;
+    margin: 0 auto;
+ }
+ .contact-box {
+     display: flex;
+ }
+
+ h1 { 
+     font-size: 50px;
+ }
+
