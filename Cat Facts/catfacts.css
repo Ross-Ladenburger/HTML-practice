@@ -1,13 +1,28 @@
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-  </div>
-</div>
+.body {
+  margin: 0;
+}
+
+.nav {
+  animation-name: slidein;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  color: rgb(27, 198, 228);
+  padding: 1.25rem;
+}
+
+.content {
+  animation-name: moveover;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.footer { 
+  margin-left: 25vw;
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
